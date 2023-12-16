@@ -20,10 +20,10 @@ jobs:
         with:
           image: yuriizd/g2d-hubhub
           registry: docker.io
-          tags: latest
+#          tags: latest
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-
+#
 
           
 
