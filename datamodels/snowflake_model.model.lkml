@@ -18,3 +18,5 @@ include: "/snowflake_views/*.view.lkml"                # include all views in th
 #     sql_on: ${users.id} = ${orders.user_id} ;;
 #   }
 # }
+
+include: "/snowflake_explorer/sample.explore.lkml"
